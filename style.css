@@ -1,0 +1,33 @@
+ul{
+  background-color: pink;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+a{
+  text-decoration: none;
+
+}
+
+li{
+  list-style-type: none;
+ 
+
+}
+ 
+#onediv{
+  height: 100px;
+  width: 100px;
+ background-color: greenyellow;
+ display: flex;
+ justify-content: center;
+align-items: center;
+}
+
+#onediv:hover{
+  background-color: blueviolet;
+  transition-property: all;
+  transition-duration: 0.0000000000001s;
+  transition-timing-function: steps(100);
+}
+
